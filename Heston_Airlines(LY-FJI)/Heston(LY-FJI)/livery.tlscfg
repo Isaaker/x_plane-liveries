@@ -1,0 +1,5 @@
+eng_type = PWG
+has_MultiFunRwyLights = YES
+has_satcom = YES
+has_eRudder = YES
+use_Imperial_Units = NO

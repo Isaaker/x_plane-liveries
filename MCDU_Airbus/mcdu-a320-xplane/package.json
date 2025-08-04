@@ -1,0 +1,24 @@
+{
+  "name": "mcdu-a320-xplane",
+  "version": "1.0.0",
+  "description": "MCDU for Airbus A320 in X-Plane simulator",
+  "main": "src/web/index.html",
+  "scripts": {
+    "start": "live-server src/web",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  },
+  "keywords": [
+    "X-Plane",
+    "MCDU",
+    "A320",
+    "simulator"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

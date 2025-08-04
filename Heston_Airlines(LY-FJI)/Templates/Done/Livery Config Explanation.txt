@@ -1,0 +1,30 @@
+eng_type = PWG/LEA
+has_MultiFunRwyLights = YES/NO
+has_satcom = YES/NO
+has_eRudder = YES/NO
+use_Imperial_Units = YES/NO
+has_BUSSSwitches = YES/NO
+
+Engine type:
+PWG = PWG1127G
+LEA = CFM LEAP-1A26
+
+Multi function runway lights:
+YES = Aircraft has Multifunctional runway lights in the forward belly fairing
+NO = Aircraft has classic landing lights under the aft belly fairing
+
+has_satcom: 
+YES = Satcom on the roof
+NO = Nothing on the roof
+
+eRudder
+YES = uses the new flight control computer configuration with 2 ELAC and 2 SEC
+NO = uses the classic flight control computer configuration with 2 ELAC, 3 SEC and 2 FAC
+
+use_Imperial_Units:
+YES = Uses Imperial/Freedom Units
+NO = Uses Metric
+
+has_BUSSSwitches:
+YES = BUSS switches are present next to the PFD to activate the Backup Speed Scale in a reversible fashion
+NO = There are no BUSS switches. Backup speed scale can be activated by switching off all 3 ADR, however this is not reversible
